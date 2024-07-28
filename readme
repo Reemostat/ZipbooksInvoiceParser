@@ -1,0 +1,26 @@
+To run this make sure to download poppler from https://github.com/oschwartz10612/poppler-windows/releases in zip format, then extract it and add the bin folder to PATH
+
+
+To download and install Poppler on a Mac, follow these steps:
+
+Install Homebrew:
+If you don't have Homebrew installed, you can install it by running the following command in your terminal:
+bash
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Install Poppler:
+
+Once Homebrew is installed, you can install Poppler by running the following command:
+
+bash
+
+brew install poppler
+
+
+
+Install dependencies using pip install -r requirements.txt
+
+set api keys in .env file
+
+streamlit run streamlit_app.py
